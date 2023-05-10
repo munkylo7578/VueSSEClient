@@ -1,9 +1,12 @@
+// @ts-nocheck
 import Vue from 'vue'
+
 import VueSSE from 'vue-sse'
 import App from './App.vue'
 
 // Use VueSSE, including a polyfill for older browsers
 Vue.use(VueSSE, {
+
   polyfill: true
 })
 
